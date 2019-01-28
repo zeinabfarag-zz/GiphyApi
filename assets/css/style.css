@@ -1,0 +1,43 @@
+.bg-primary {
+  background-color: #007cad !important;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+}
+
+.btn {
+  margin: 1rem;
+}
+
+.form-group {
+  float: left;
+  display: flex;
+  margin: 0 25%;
+}
+
+.thead {
+  text-align: center;
+}
+
+.jumbotron {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+#giphyButtons,
+#movieButtons,
+#bandsButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
+}
+
+/* code from: https://mdbootstrap.com/content/bootstrap-table-scroll/ */
+.table-wrapper-scroll-y {
+  display: block;
+  max-height: 400px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
