@@ -2,71 +2,35 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Giphy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
 
-  <!-- reset css -->
-  <link rel="stylesheet" href="reset.css">
-
-  <!-- bootstrap css -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-
-  <!-- bootsrap js -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-
-  <!-- personal css -->
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
 </head>
 
 <body>
+    <section class='container'>
+        <section class='row'>
+            <section class='row'>
+                <section id='buttons' class='col-12'></section>
+            </section>
+            <section id='images' class='col-9'></section>
+            <section id='entry' class='col-3'>
+                <p>Add another Nexflix show:</p>
+                <input id='addButton' type="text" />
+                <button class="addNewButton">Submit</button>
+            </section>
 
+        </section>
+    </section>
 
-  <div class="container">
-    <div class="row">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 
-      <div class="col-lg-10">
-
-        <div id="buttons"></div>
-        <div id="gifs"></div>
-
-      </div>
-
-      <div class="col-lg-2">
-
-
-        <form>
-          Add your favorite food!
-          <input type="text" id="addFood">
-          <input type="button" id="submit" value="submit">
-        </form>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <div id="buttons"></div>
-  <div id="gifs"></div>
-
-
-
-
-
-
-
-  <!-- jQuery and js files -->
-  <script src="https://code.jquery.com/jquery-3.3.1.js " integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="
-      anonymous "></script>
-  <script src="app.js "></script>
+    <script type="text/javascript " src="app.js"></script>
 </body>
 
 </html>
