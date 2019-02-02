@@ -16,3 +16,4 @@ Fill out the required information and click on search to pull from your selected
 ## Website
 
 https://zeinabfarag.github.io/GiphyApi/
+
